@@ -2,7 +2,7 @@ const questions = [
   {
     question: "Which is the largest animal in the world?",
     answers: [
-      { Text: "Shark", correct: false },,
+      { Text: "Shark", correct: false },
       { Text: "Elephant", correct: false },
       { Text: "Giraffe", correct: false },
       { Text: "Blue Whale", correct: true }
