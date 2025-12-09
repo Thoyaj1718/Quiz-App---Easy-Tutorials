@@ -135,13 +135,13 @@ function selectAnswer(e){
     const isCorrect = selectedbutton.dataset.correct === "true";
     if(isCorrect){
         selectedbutton.classList.add("correct");
+        score++;
     }else{
         selectedbutton.classList.add("incorrect");
     }
     Array.from(answerButton.children).forEach(button => {
         if(button.dataset.correct === "true"){
             button.classList.add("correct");
-            score++;
         }
         button.disabled = true;
 
